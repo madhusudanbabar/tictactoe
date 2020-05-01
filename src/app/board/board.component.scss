@@ -1,8 +1,15 @@
+:host{
+    display: grid;
+    justify-content: center;
+    justify-self: center;
+}
+
 main{
-    text-align: center;
     display: grid;
     grid-template-columns: 150px 150px 150px;
     grid-gap: 0pt;
+    border: #3F51B5 solid 2px;
+    justify-content: center;
 }
 
 app-square{
@@ -10,8 +17,10 @@ app-square{
     height: 100%;
     border: 1px gray solid;
     height: 150px;
-    button{
-        display: block;
-        width: 100%;
-    }
+}
+
+button{
+    margin: 1em 0em;
+    padding: .5 em;
+    display: block;
 }

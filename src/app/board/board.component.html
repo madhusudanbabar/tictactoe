@@ -1,14 +1,20 @@
-<h1>current player: {{ player }} </h1>
+<h1 body-1 class="mat-body-strong">current player:  
+    <span *ngIf="player === 'O'" style="color: rgb(255, 64, 129);">{{ player }} </span>
+    <span *ngIf="player === 'X'" style="color: #3F51B5">{{ player }} </span>
+ </h1>
 
-<button nbButton outline status="danger" (click)="newGame()"> start new game </button>
+
+<button mat-stroked-button color="warn" (click)="newGame()"> start new game </button>
 
 <h2 *ngIf="winner">
-    player {{ winner }} won the game!
+    <p *ngIf="winner === 'X'" style="color: #3F51B5"> player X won the game</p>
+    <p *ngIf="winner === 'O'" style="color: rgb(255, 64, 129);">player O won the game!</p>
 </h2>
 
+<mat-card>
 <main>
     <app-square *ngFor="let val of squares; let i = index"
     [value] = "val" (click)="makeMove(i)">
-
     </app-square>
 </main>
+</mat-card>
