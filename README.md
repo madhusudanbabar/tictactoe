@@ -1,7 +1,8 @@
 # [Tic Tac Toe game](https://tictactoe-f8dc3.web.app/)
 
- this is the first ever progresive app that i built, [click here](https://tictactoe-f8dc3.web.app/) for demo
- this app is built with angular material.
+ Tic tac toe is my first progressive app.  
+ it is built on angular with angular material to give it beautiful materialistic UI.
+ As it is PWA you can install it on your device simply by visisting the site and clicking the `install` button for desktop and for mobile browsers you can select `add to home screen`.
  
  ## 
 
