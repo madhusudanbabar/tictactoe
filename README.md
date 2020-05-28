@@ -1,6 +1,9 @@
 # [Tic Tac Toe game](https://tictactoe-f8dc3.web.app/)
 
  this is the first ever progresive app that i built, [click here](https://tictactoe-f8dc3.web.app/) for demo
+ this app is built with angular material.
+ 
+ ## 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
 
